@@ -16,7 +16,8 @@ Instalar os softwares necessários:
 
     apt install openjdk-17-jre openjdk-17-jdk-headless gnupg curl wget autoconf make gcc
 
-Instalar o **MongoDB 4.4**
+Instalar o **MongoDB 4.4** </BR>
+(O Debian 11 não tem repositório para o MongoDB 4, por isso foi utilizado o repositório do Debian 10)
 
     curl -fsSL https://pgp.mongodb.com/server-4.4.asc | gpg -o /usr/share/keyrings/mongodb-server-4.4.gpg --dearmor
     echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-4.4.gpg ] http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 main" | tee /etc/apt/sources.list.d/mongodb-org-4.4.list
