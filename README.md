@@ -1,5 +1,9 @@
 # Instalação do Omada 5 no Debian 11
-![Omada](https://github.com/spec-r/debian_omada/blob/main/img/omada.png?raw=true)
+
+<p align="center">
+  <img height="100" src="https://www.debian.org/logos/openlogo-nd-100.png">
+  <img height="100" src="https://github.com/spec-r/debian_omada/blob/main/img/omada.png?raw=true">
+</p>
 
 ## Requisitos:
 
